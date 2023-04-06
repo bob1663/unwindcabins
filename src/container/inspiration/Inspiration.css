@@ -1,0 +1,29 @@
+.app__inspiration {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  background: #f2faf9;
+}
+
+.app__inspiration-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1040px;
+  width: 100%;
+  margin-top: 56px;
+}
+
+.app__inspiration-cards {
+  margin-top: 40px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(242px, 338px));
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  margin-bottom: 150px;
+}

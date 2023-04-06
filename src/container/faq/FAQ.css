@@ -1,0 +1,129 @@
+.app__faq {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #ffffff;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  margin-top: 60px;
+}
+
+.app__faq-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1040px;
+  width: 100%;
+}
+
+.app__faq-container h1 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #1f3d3e;
+  margin-bottom: 41px;
+}
+
+.app__faq-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+
+.app__faq-block_content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.app__faq-block_content h3 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #44445c;
+  margin-bottom: 10px;
+}
+
+.app__faq-block_content p {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4a4a4a;
+}
+
+.app__faq-block_button {
+  width: 100%;
+}
+
+.app__faq-block_button p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 90px;
+  background: #f5b963;
+  border: 1px solid #bec2d9;
+  box-shadow: 0px 2px 4px #d1dfda;
+  border-radius: 6px;
+  max-width: 680px;
+  width: 100%;
+  cursor: pointer;
+
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.app__faq-block_button p img {
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.app__faq-container h4 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 10px;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.app__faq-container h5 {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.app__faq-container h5 span {
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .app__faq-block {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  .app__faq-block_button p {
+    max-width: 280px;
+  }
+}

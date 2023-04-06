@@ -1,0 +1,49 @@
+.app__testimonials {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets//PurpleWoman.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.app__testimonials-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1040px;
+  width: 100%;
+}
+
+.app__testimonials-container_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 419px;
+  align-self: flex-end;
+}
+
+.app__testimonials-container h1 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #ffffff;
+}
+
+.app__testimonials-container p {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 54px;
+}
+
+.app__testimonials-container img {
+  width: 196px;
+  height: 21.31px;
+}
